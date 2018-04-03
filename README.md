@@ -18,14 +18,17 @@ Python  |  Description
 ## Your Challenge
 
 Part 1:
- 1. Write out the logic of what we need the program to do
+ 1. Write out the logic of what we need the program to do and define the followinf functions (getMode, getMessage, getEncrypt, runCipher) 
  2. The first coding we need to do is define our alphabet as a variable key by setting symbol = "abcdefghijklmnopqrstuvwxyz"
- 3. We will need to come back and define some variables here as we go.
- 4. Create your first function to start asking user for the message they want to encrypt
+ 3. You may need to come back and define some variables here as we go.
  5. Inside your function create a while loop to ask if the user would like to encrypt or decrypt
 
 Part 2:
- 1. Create a function called getencrypt
+1. Create a function called getMessage to ask the user for their message 
+2. How can we do some error checking to make sure the user enters a valid message?
+
+Part 3:
+ 1. Create a function called getEncrypt
  2. You will need to define your 3 global variables first
  3. Ask the user for the key (or the shift) they want to use
  4. In an if statement, define the key. It should be a number from 1-26 right?
@@ -36,20 +39,21 @@ Part 2:
 
 
 Part 3:
- 1. Create a function called getdecrypt, just like getencrypt
+ 1. Create a function called getDecrypt, just like getencrypt
  2. Define your 3 global variables
  3. Ask the user for the key they want to use
 
  4. Do the same  as in Part 3 step 5 (hint: For char in message:) 
 
 
-Part 4: (I think we will go through this part together)
+Part 4: 
  1. Create a function called runcipher
- 2. define global mode and global encrypt_message, call both functions
+ 2.  Call your functions so that they all run
 
 
-Part 5:
- 1. Go back through your program and add error checking to each of your functions. What does that mean? It means you need to anticipate that the user may not enter valid input. So how do you either prevent that from happening or prompt them to enter what you want?
+Lab Challenge- Part 5:
+ 1. Ask the user if they want to keep playing or quit the game
+ 2. Go back through your program and add error checking to each of your functions. What does that mean? It means you need to anticipate that the user may not enter valid input. So how do you either prevent that from happening or prompt them to enter what you want?
 
 
 
